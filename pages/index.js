@@ -3,9 +3,9 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import {Button} from '../components/about'
-import { Footer } from '../components/footer'
-import { Header } from '../components/header'
-import { Hero } from '../components/hero'
+import { Footer } from 'components/footer'
+import { Header } from 'components/header'
+import { Hero } from 'components/hero'
 
 
 
@@ -15,6 +15,12 @@ export default function Home() {
   return (
     <>
     <Header/>
+    <main>
+      <Hero />
+
+    </main>
+
+    <Footer/>
     </>
   )
 }
