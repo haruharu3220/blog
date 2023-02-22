@@ -1,12 +1,11 @@
 
-export const Hero =() =>{
+export const Hero = ({title, subtitle, imageOn =false }) =>{
 
     return(
         <div>
-            <p>HEROコンポーネントです。</p>
-            <p>HEROコンポーネントです。</p>
-            <p>HEROコンポーネントです。</p>
-
+            <h1>{title}</h1>
+            <p>{subtitle}</p>
+            {imageOn && <figure>[画像]</figure>}
         </div>
 
     )

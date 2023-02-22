@@ -1,9 +1,13 @@
-import Hero from 'components/hero';
+import { Hero } from 'components/hero';
 
-export const About = () => {
-return(
 
-    <Hero />
-)
-
+export default function Facility() {
+    return (
+        <>
+            <Hero
+                title = "Facility"
+                subtitle = "これは家具サイトです"
+            />
+        </>
+    )
 }
