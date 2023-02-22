@@ -11,7 +11,11 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-      <Hero />
+      <Hero
+        title="これはタイトルです。"
+        subtitle="アウトプットしていくサイト"
+        imageOn
+      />
     </>
   )
 }
